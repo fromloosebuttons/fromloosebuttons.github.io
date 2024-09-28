@@ -63,7 +63,7 @@ footer {
     text-decoration: underline;
 }
 
-.scroll-container{
+.scroll-container {
     display: flex;
     flex-direction: row;
     margin-top: 20px;
