@@ -87,3 +87,13 @@ footer {
     text-decoration: underline;
 }
 
+@media only screen and (max-width: 1000px){
+    #fromjandm {
+        display: none;
+    }
+
+    .bodytext {
+        font-size: 15px;
+        width: 70vw;
+    }
+}

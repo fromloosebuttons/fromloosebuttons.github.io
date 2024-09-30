@@ -21,7 +21,7 @@ header {
 }
 
 .logo {
-    max-width: 220px; 
+    width: 220px; 
 }
 
 nav {
@@ -44,10 +44,9 @@ nav {
     text-decoration: underline;
 }
 
-.body {
-   height: 100%;  
+.body { 
    display: flex;
-   justify-content: center;
+   justify-content: flex-start;
    align-items: center;
    flex-direction: column;
    text-align: center;
@@ -58,6 +57,33 @@ nav {
     font-variation-settings: "wght" 300;
     font-size: 18px;
     line-height: 1.6;
+    margin-top: 3em;
+}
+
+.shop {
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    overflow: scroll;
+}
+
+.shopimgs {
+    height: 30em;
+}
+
+.caption {
+   font-family: "abacaxi-latin-variable", sans-serif;
+    font-variation-settings: "wght" 300;
+    font-size: 18px;
+    line-height: 1.6; 
+}
+
+.items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3em;
 }
 
 footer {
@@ -79,3 +105,26 @@ footer {
     text-decoration: underline;
 }
 
+@media only screen and (max-width: 1000px){
+    #fromjandm {
+        display: none;
+    }
+
+    .bodytext {
+        font-size: 14px;
+    }
+
+    .shop {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        clear: both;
+    }
+
+    .shopimgs {
+    height: 20em;
+    }
+}
