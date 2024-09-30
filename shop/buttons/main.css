@@ -50,8 +50,14 @@ nav {
    grid-template-columns: repeat(2, 1fr);
 }
 
+.images {
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
 .images img {
-    width: 40vw;
+    width: 30vw;
 }
 
 .bodytext {
