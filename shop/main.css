@@ -65,6 +65,7 @@ nav {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     overflow: scroll;
+    overflow-x: hidden;
 }
 
 .shopimgs {

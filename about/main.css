@@ -58,13 +58,12 @@ nav {
     font-family: "abacaxi-latin-variable", sans-serif;
     font-variation-settings: "wght" 300;
     font-size: 18px;
-    line-height: 1.6;
-    margin-top: 10%; 
+    line-height: 1.6; 
     width: 50vw;
 }
 
 .madewithlove {
-    margin-top: 10%;
+    margin-top: 5%;
     max-width: 300px; 
 }
 
