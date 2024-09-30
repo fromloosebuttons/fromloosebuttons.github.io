@@ -59,6 +59,9 @@ nav {
     line-height: 1.6;
     margin-top: 3em;
 }
+.bodytext a{
+   color: black; 
+}
 
 .shop {
     height: 100%;
