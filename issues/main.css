@@ -45,19 +45,32 @@ a:hover {
 }
 
 .body {
-   height: 100%;  
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   flex-direction: column;
-   text-align: center;
+   height: 100%;
+    width: 100vw; 
 }
+
+.issues {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.imgs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.issue1{
+    width: 40vw;
+}
+
 
 .bodytext {
     font-family: "abacaxi-latin-variable", sans-serif;
     font-variation-settings: "wght" 300;
     font-size: 18px;
     line-height: 1.6;
+    padding: 10em;
 }
 
 footer {
