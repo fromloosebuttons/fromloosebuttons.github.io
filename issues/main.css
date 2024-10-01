@@ -10,6 +10,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     height: 100%;
+    width: 100%;
 }
 
 header {
@@ -70,7 +71,7 @@ a:hover {
     font-variation-settings: "wght" 300;
     font-size: 18px;
     line-height: 1.6;
-    padding: 10em;
+    padding: 8em;
 }
 
 footer {
@@ -93,7 +94,19 @@ footer {
         display: none;
     }
 
+    .issues {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
     .bodytext {
         font-size: 15px;
+        padding: 2em;
+    }
+
+    .issue1 {
+        width: 80vw;
     }
 }
