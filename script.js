@@ -1,11 +1,11 @@
 const dropdownMenu = document.getElementById('dropdownMenu');
 
-function setActive(menuIcon) {
-    menuIcon.classList.toggle('animation');
-    dropdownMenu.classList.toggle('active');
-    const buttonRect = menuIcon.getBoundingClientRect();
-    dropdownMenu.style.top = `${buttonRect.bottom + window.scrollY}px`;
-}
+    document.querySelector('.menu-icon').addEventListener('click', function() {
+        this.classList.toggle('animation');
+        dropdownMenu.classList.toggle('active');
+        const buttonRect = this.getBoundingClientRect();
+        dropdownMenu.style.top = `${buttonRect.bottom + window.scrollY}px`;
+    });
 
 let scrollSpeed = 1;
 let autoScrollInterval;
