@@ -35,7 +35,7 @@ function detectManualScroll() {
     clearTimeout(userScrollTimeout);
     userScrollTimeout = setTimeout(() => {
         startAutoScroll();
-    }, 200);
+    }, 100);
 }
 
 function reorderRight() {
@@ -55,7 +55,6 @@ function reorderLeft() {
     const clone = lastItem.cloneNode(true);
     scrollContainer.insertBefore(clone, scrollContainer.firstElementChild);
 
-
     scrollContainer.scrollLeft += lastItem.offsetWidth;
     
     scrollContainer.removeChild(lastItem);
@@ -66,4 +65,3 @@ scrollContainer.addEventListener('touchstart', detectManualScroll);
 scrollContainer.addEventListener('touchmove', detectManualScroll);
 
 startAutoScroll();
-

@@ -38,7 +38,9 @@ nav {
 .nav-link {
     text-decoration: none;
     color: black;
-    font-size: 18px; 
+    font-size: 18px;
+    font-family: "abacaxi-latin-variable", sans-serif;
+    font-variation-settings: "wght" 300;
 }
 
 .menu-icon {
