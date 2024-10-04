@@ -88,6 +88,8 @@ a:hover {
     border-radius: 8px;
     align-items: center;
     text-align: center;
+    font-family: "abacaxi-latin-variable", sans-serif;
+    font-variation-settings: "wght" 300;
 }
 
 @media (max-width: 640px) {
