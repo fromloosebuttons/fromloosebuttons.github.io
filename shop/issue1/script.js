@@ -1,7 +1,3 @@
-$(window).on('load', function() {
-        $(".shop").scrollTop(0);
-    });
-
 const dropdownMenu = document.getElementById('dropdownMenu');
 
 function setActive(menuIcon) {
